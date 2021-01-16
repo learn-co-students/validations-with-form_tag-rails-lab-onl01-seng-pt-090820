@@ -1,0 +1,5 @@
+<h1>All the Posts Belong Here</h1>
+<% @posts.each do |post| %>
+    <div><%= post.title %><br>
+    <%= post.content %>
+<% end %>
